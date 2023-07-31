@@ -25,7 +25,7 @@ struct ContentView: View {
                             .cornerRadius(20)
                     }
                 }
-                .task {
+                .task{
                     await self.viewModel.getSchools()
                 }
             }
