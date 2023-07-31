@@ -14,6 +14,9 @@
 		E971CC072A78264B0081D545 /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971CC062A78264B0081D545 /* PracticeTests.swift */; };
 		E971CC112A78264C0081D545 /* PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971CC102A78264C0081D545 /* PracticeUITests.swift */; };
 		E971CC132A78264C0081D545 /* PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971CC122A78264C0081D545 /* PracticeUITestsLaunchTests.swift */; };
+		E971CC202A7826780081D545 /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971CC1F2A7826780081D545 /* SchoolViewModel.swift */; };
+		E971CC222A78269A0081D545 /* SchoolService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971CC212A78269A0081D545 /* SchoolService.swift */; };
+		E971CC242A7827D60081D545 /* SchoolReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971CC232A7827D60081D545 /* SchoolReponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E971CC0C2A78264C0081D545 /* PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E971CC102A78264C0081D545 /* PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITests.swift; sourceTree = "<group>"; };
 		E971CC122A78264C0081D545 /* PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E971CC1F2A7826780081D545 /* SchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
+		E971CC212A78269A0081D545 /* SchoolService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolService.swift; sourceTree = "<group>"; };
+		E971CC232A7827D60081D545 /* SchoolReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolReponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				E971CBF52A78264A0081D545 /* PracticeApp.swift */,
 				E971CBF72A78264A0081D545 /* ContentView.swift */,
+				E971CC1F2A7826780081D545 /* SchoolViewModel.swift */,
+				E971CC212A78269A0081D545 /* SchoolService.swift */,
+				E971CC232A7827D60081D545 /* SchoolReponse.swift */,
 				E971CBF92A78264B0081D545 /* Assets.xcassets */,
 				E971CBFB2A78264B0081D545 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E971CC202A7826780081D545 /* SchoolViewModel.swift in Sources */,
 				E971CBF82A78264A0081D545 /* ContentView.swift in Sources */,
 				E971CBF62A78264A0081D545 /* PracticeApp.swift in Sources */,
+				E971CC242A7827D60081D545 /* SchoolReponse.swift in Sources */,
+				E971CC222A78269A0081D545 /* SchoolService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
